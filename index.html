@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./app.css">
+
+</head>
+<body>
+ 
+    <form id="registrationForm">
+        <h4>Registration Form</h4>
+        <!-- <p id="error"></p> -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="surname">Surname</label>
+            <input type="text" id="surname" name="surname">
+        </div>
+        <div>
+            <label for="dob">Date of Birth</label>
+            <input type="text" id="dob" name="dob">
+        </div>
+        <div>
+            <label for="role">Role</label>
+            <select id="role" name="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+            </select>
+        </div>
+        <div class="stud_teach">
+
+        </div>
+       
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit"  id ="btn">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
